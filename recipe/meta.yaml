@@ -1,5 +1,5 @@
 {% set name = "pip-upgrader" %}
-{% set version = "1.4.6" %}
+{% set version = "1.4.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/pip_upgrader/pip_upgrader-{{ version }}.tar.gz
-  sha256: 6790aeaf578310fb864ee0a0358008e1edc8e0aae3493a35907ba84ee5edf47f
+  sha256: ca941420d93b212aade378eaead3091aa658c63adcaf38c796e76420e1048f48
 
 build:
   noarch: python
