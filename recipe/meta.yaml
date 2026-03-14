@@ -1,13 +1,13 @@
 {% set name = "pip-upgrader" %}
-{% set version = "1.4.15" %}
+{% set version = "2.4.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/p/pip_upgrader/pip_upgrader-{{ version }}.tar.gz
-  sha256: ec07b93e06825d9cf40f475a8e021fc9d288446b479b40cb9aba406a6db65347
+  url: https://pypi.org/packages/source/p/pip_upgrader/pip_upgrader-{{ version }}.tar.gz
+  sha256: c968def8fef495e01b59710ff241de38d8ca53ebdbd55ed803c565a251cedefe
 
 build:
   noarch: python
